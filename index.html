@@ -6,18 +6,23 @@
     <title>Hifive Chat</title>
     <link rel="stylesheet" href="/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
     <section class="Chat_Section">
         <div class="logo">
             <img src="/public/HI-logos_transparent.png" height="160">
-            <h1>HiFive<b>chat</b></h1>
+            <h1>hifive<b>CHAT</b></h1>
 
         </div>
         <div class="message_area">
         </div>
         <div>
-            <textarea id="textarea" cols="30" rows="1" placeholder="    Write Here"></textarea>
+            <form id="form" action="">
+            <input id="textarea" autocomplete="off" cols="30" rows="1" placeholder="    Write Here"></input><button id="btn"><i class="fa fa-send-o" style="font-size:36px"></i></button>
+            </form>
         </div>
     </section>
     <script src="/socket.io/socket.io.js"></script>
