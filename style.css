@@ -12,7 +12,7 @@
     align-items: center;
 }
 .logo h1{
-    text-transform: uppercase;
+    
     font-size:25px;
     color:rgb(240, 196, 85);
     margin-left: -41px;
@@ -23,7 +23,7 @@ section.Chat_Section{
     max-width: 90%;
     border: 2px solid rgb(9, 0, 0);
     margin: auto;
-    height: 78vh;
+    height: 83vh;
     padding: 33px;
     margin-bottom: 55px;
     background-image: url("/17b5b32cb87471940a5ee8e1aecff557.jpg");
@@ -62,17 +62,17 @@ section.Chat_Section{
     position: relative;
 }
 #textarea{
-    width: 100%;
-    border: 3px solid goldenrod;
+    width: 90%;
+    border: 2px solid rgb(171, 167, 246);
     padding: 19px;
     font-size: 16px;
     border-radius: 6px;
     outline: none;
-    background-color: lightsalmon;
+    background-color: rgb(176, 230, 249);
 }
 #textarea:hover{
-    background-color: rgb(243, 117, 68);
-    border: 3px solid rgb(160, 249, 59);
+    background-color: rgb(149, 225, 250);
+    border: 2px solid rgb(171, 167, 246);
 }
 .message h4{
     position: absolute;
@@ -80,6 +80,19 @@ section.Chat_Section{
     left: 0;
     color: #333;
     font-size: 14px;
+}
+#btn{
+    background-color: rgb(69, 158, 246);
+    border: none;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:RoyalBlue;
 }
 body{
     display:flex;
