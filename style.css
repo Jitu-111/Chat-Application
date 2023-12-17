@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.logo{
+    display: flex;
+    margin: auto;
+    width: -20px;
+    height:15px;
+    padding:20px;
+    align-items: center;
+}
+.logo h1{
+    text-transform: uppercase;
+    font-size:25px;
+    color:rgb(240, 196, 85);
+    margin-left: -41px;
+    font-style: italic;
+}
+section.Chat_Section{
+    width: 999px;
+    max-width: 90%;
+    border: 2px solid rgb(9, 0, 0);
+    margin: auto;
+    height: 78vh;
+    padding: 33px;
+    margin-bottom: 55px;
+    background-image: url("/17b5b32cb87471940a5ee8e1aecff557.jpg");
+}
+
+.message_area{
+    background-color: rgb(196, 167, 250);
+    display: flex;
+    height: 501px;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 9px;
+    padding-top: 40px;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.incoming{
+    float: left;
+    clear: both;
+    background-color: lightgreen;
+}
+
+.outgoing{
+    float: right;
+    clear: both;
+    background-color: brown;
+    margin-left: auto;
+}
+
+.message{
+    padding: 20px;
+    margin-bottom:40px;
+    border-radius: 4px;
+    max-width: 300px;
+    position: relative;
+}
+#textarea{
+    width: 100%;
+    border: 3px solid goldenrod;
+    padding: 19px;
+    font-size: 16px;
+    border-radius: 6px;
+    outline: none;
+    background-color: lightsalmon;
+}
+#textarea:hover{
+    background-color: rgb(243, 117, 68);
+    border: 3px solid rgb(160, 249, 59);
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:70vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
