@@ -1,16 +1,17 @@
 const socket =io();
 let nam;
 let textarea=document.querySelector('#textarea');
+const btn = document.getElementById('btn');
 let messagearea=document.querySelector('.message_area');
 do{
     nam = prompt('Enter Your Name:');
 }while(!nam)
  
-textarea.addEventListener('keyup',(e)=>{
-    if(e.key=='Enter'){
-        sendMessage(e.target.value);
-    }
-})
+btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    let message1=textarea.value; 
+    sendMessage(message1);
+  });
 function sendMessage(message){
     let msg={
         user: nam,
@@ -48,7 +49,7 @@ function sendMessage(message){
     toptobottom();
  })
 
- function toptobottom()//for making the scroller down everytime at the time of updation
+ function toptobottom()
  {
     messagearea.scrollTop=messagearea.scrollHeight;
  }
