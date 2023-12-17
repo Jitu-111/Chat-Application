@@ -48,7 +48,7 @@ function sendMessage(message){
     toptobottom();
  })
 
- function toptobottom()
+ function toptobottom()//for making the scroller down everytime at the time of updation
  {
     messagearea.scrollTop=messagearea.scrollHeight;
  }
