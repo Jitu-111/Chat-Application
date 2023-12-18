@@ -34,7 +34,7 @@ function sendMessage(message){
 
     let markup=`
         <h4>${msg.user}</h4>
-        <p>${msg.message}</p>
+        <p id="onlymessage">${msg.message}</p>
      `
      maindiv.innerHTML=markup;
 
