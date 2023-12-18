@@ -21,7 +21,7 @@
 section.Chat_Section{
     width: 999px;
     max-width: 90%;
-    border: 2px solid rgb(9, 0, 0);
+    border: 2px solid rgb(74, 20, 250);
     margin: auto;
     height: 83vh;
     padding: 33px;
@@ -44,20 +44,26 @@ section.Chat_Section{
 .incoming{
     float: left;
     clear: both;
+    border-end-end-radius: 30px;
     background-color: lightgreen;
 }
 
 .outgoing{
     float: right;
     clear: both;
+    color:white;
+    border-top-left-radius: 30px;
     background-color: brown;
     margin-left: auto;
+}
+#onlymessage{
+    overflow-x:auto;
+    padding: 10px;
 }
 
 .message{
     padding: 20px;
     margin-bottom:40px;
-    border-radius: 4px;
     max-width: 300px;
     position: relative;
 }
